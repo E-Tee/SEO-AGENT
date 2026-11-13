@@ -1,0 +1,1 @@
+Кластеризация завершена. `gate_errors` пусты, конфликты и остатки разрешены; итоговый набор содержит 10 кластеров. Отчёт: [cluster_report.md](data/processed/cluster_report.md).

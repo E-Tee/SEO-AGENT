@@ -1,0 +1,7 @@
+domain_punycode: xn--e1aapkhdgegceho3a2m.xn--p1ai
+region: SPb
+engines: [google, yandex]
+serp_cache_days: 7
+serp_delay_sec: 1.5
+vendor: vendor/notfair-plugin
+artifacts: data/processed

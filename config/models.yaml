@@ -1,0 +1,9 @@
+# KIE, РїСЂРѕС‚РѕРєРѕР» Responses. РЎР»Р°РіРё СЃРІРµСЂСЊ: GET https://api.kie.ai/openai/v1/models
+roles:
+  seo:        {proto: codex,       model: gpt-6-1-terra,    effort: high,   max_tokens: 16000}
+  seo_bulk:   {proto: openai-resp, model: deepseek-v4-1-flash, thinking: off, max_tokens: 8000}
+  seo_critic: {proto: grok,        model: grok-4-5,         effort: medium, max_tokens: 8000}
+fallback:
+  codex:       [gpt-6-1-sol, gpt-5-6-sol]
+  openai-resp: [kimi-k3-1-pro]
+  grok:        [grok-4-6]

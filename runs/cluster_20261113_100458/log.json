@@ -1,0 +1,44 @@
+[
+  {
+    "step": 0,
+    "calls": [
+      "inspect",
+      "inspect"
+    ],
+    "credits": 0.08
+  },
+  {
+    "step": 1,
+    "calls": [
+      "load",
+      "load"
+    ],
+    "credits": 0.62
+  },
+  {
+    "step": 2,
+    "calls": [
+      "apply_policy"
+    ],
+    "credits": 0.89
+  },
+  {
+    "step": 3,
+    "calls": [
+      "apply_policy"
+    ],
+    "credits": 1.25
+  },
+  {
+    "step": 4,
+    "calls": [
+      "finalize"
+    ],
+    "credits": 1.49
+  },
+  {
+    "step": 5,
+    "calls": [],
+    "credits": 1.07
+  }
+]
